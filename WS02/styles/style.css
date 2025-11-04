@@ -1,0 +1,63 @@
+p {
+    font-size: 1.5em;
+    color:rgb(219, 17, 17);
+    }
+    body {
+    background-color: lightslategrey;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+h2 {
+    font-size: 2em;
+    }
+ul {
+    font-size: 1.5em;
+    }
+a { 
+    font-size: 1.5em;
+}
+div {
+      padding: 20px;
+      margin: 10px;
+    }
+table{
+    width: 75%;
+    border-collapse:collapse;
+}
+tr{
+    background-color: lightblue;
+}
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: rgb(78, 28, 214);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 5px;
+}
+label {
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #847e7e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #555151;
+}
