@@ -4,8 +4,11 @@
     }
     
     .column {
+      background-color: beige;
       flex: 1;
       padding: 10px;
+      border: 1px solid black;
+      border-radius: 4px;
     }
     
     @media (max-width: 600px) {
@@ -17,6 +20,9 @@
       max-width: 100%;
       height: auto;
     }
+  .responsive-image:hover {
+      filter:hue-rotate(90deg);
+  }
 
 .media-query-box {
       padding: 20px;
@@ -25,13 +31,13 @@
     
     @media (max-width: 600px) {
       .media-query-box {
-        background-color: lightcoral;
+        background-color: rgb(238, 107, 107);
       }
     }
     
     @media (min-width: 601px) {
       .media-query-box {
-        background-color: lightblue;
+        background-color: rgb(158, 216, 236);
       }
     }
     
